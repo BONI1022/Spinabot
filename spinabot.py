@@ -31,5 +31,5 @@ async def on_message(message):
     if message.content.startswith("가이드"):
         await message.channel.send("버섯님 카오스님 윤빈님 핫도그님 하롱님 이수터님이 계십니다")
 
-
-client.run("NzA1NjY2MzI2NDI0ODQ2MzY3.Xq1fbg.hyUQyYAQ97uGf-qX4vhfm5Pi_1Y")
+access token = os.environ["BOT_TOKEN"]
+client.run("access_token")
