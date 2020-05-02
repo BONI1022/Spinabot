@@ -1,7 +1,5 @@
-import random
-import os
-import asyncio
 import discord
+import os
 from discord.ext import *
 
 client = discord.Client()
