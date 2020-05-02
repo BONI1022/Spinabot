@@ -1,4 +1,5 @@
 import random
+import os
 import asyncio
 import discord
 from discord.ext import *
@@ -37,5 +38,5 @@ async def on_message(message):
         msg = message.content[23:]
         await author.send(msg)
 
-
-client.run("NzA1NjY2MzI2NDI0ODQ2MzY3.XqvkiQ.HZe8nIwuRHUC6M8uYekdoBHhHnw")
+access token = os.environ["BOT_TOKEN"]
+client.run(access_token)
